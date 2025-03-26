@@ -1,0 +1,32 @@
+name: f_simple_calculator
+description: "An example of a calculator on Flutter by Fednov"
+publish_to: 'none'
+version: 0.1.7+8
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # State management and Depency injection  
+  flutter_riverpod: 2.6.1  
+  # Local data store
+  shared_preferences: 2.5.2
+  # Adjust the minimum window size
+  window_manager: 0.4.3
+  # To determine the platform
+  universal_platform: 1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  # Additional linter
+  very_good_analysis: 7.0.0
+  # Riverpod State Notifier testing
+  state_notifier_test: 0.0.10
+  mocktail: 1.0.4
+
+flutter:
+  uses-material-design: true
